@@ -21,7 +21,7 @@ jobs:
       id: screenshot
       uses: ./
       with:
-        source: https://macu.link
+        source: https://macu.link/
         destination: github-com-swinton-screenshot-website-${{ matrix.os }}-${{ matrix.width }}.png
         full-page: true
         width: ${{ matrix.width }}
